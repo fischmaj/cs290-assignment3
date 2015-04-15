@@ -1,1 +1,5 @@
 You log goes in this  file.
+Start: Wed, 15 Apr 2015 16:15:00 (approx.) -0500
+End: Wed, 15 Apr 2015 17:16:42 -0500
+Tasks:  Spent about an hour trying to clone the cs290osu git repository and push to my own
+repo.  Had some issues with piazza message instructions, eventually figured it out. 
