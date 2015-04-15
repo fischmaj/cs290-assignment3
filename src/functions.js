@@ -13,7 +13,9 @@
 */
 
 //your code here
-
+function uselessFunction(){
+    return null;
+}
 //end your code
 
 var bar = 'not a function';
@@ -30,7 +32,20 @@ var barType = typeof bar;
 */
 
 //your code here
+bar = function(doubleArray){
+    var arrayLength = doubleArray.length;
+    var doubleable = true;
+    for (var i = 0 ; i < arrayLength; i++){
+	if (typeof(doubleArray[i]) === "number") {
+            doubleArray[i] *= 2;
+	} else {
+	    doubleable = false;
+	    break;
+	}
+    }
 
+    return doubleable;
+}
 //end your code
 
 /**
