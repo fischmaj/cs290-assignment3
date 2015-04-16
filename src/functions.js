@@ -81,5 +81,31 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit(stringArray){
+   
+    var arrayLength = stringArray.length;
+    var GitLogArray = [];
+    for (var i =0; i < arrayLength; i++){
+     
+	var myMessage= stringArray[i].split(" "); //split each message into tokens
 
+	//Assemble date from tokens 1 through 6 (RFC 2822 syntax)
+	var myDateString = myMessage[1]+" " + myMessage[2]+" "+ myMessage[3]+ " " 
+	    + myMessage[4] +" "+ myMessage[5] + " " + myMessage[6];
+	var myDate = new Date(Date.parse(myDateString));
+
+	//Assemble hash from token 0
+	var myHash = myMessage[0];
+
+	//split message again, this time at the double quotation marks
+	//and collect everything between the first 2 quotes as the commit message
+	var myMessage = stringArray[i].split('"')[1];
+
+	//create a gitlog from the hash, date, message, and add it to the GitLogArray. 
+	var myGitLog = new GitLog(myHash, myDate, myMessage);
+	GitLogArray.push(myGitLog);
+    }
+   
+    return GitLogArray;
+}
 //end your code
