@@ -5,6 +5,10 @@ Tasks:  Spent about an hour trying to clone the cs290osu git repository and push
 repo.  Had some issues with piazza message instructions, eventually figured it out. 
 
 Start: Wed, 15 Apr 2015 17:45:00 (approx) -0500
-End: 1Wed, 15 Apr 2015 18:18:54 -0500
+End: Wed, 15 Apr 2015 18:18:54 -0500
 Tasks: Completed variables.js (qunit tests all pass) and halfway through functions.js 
 (through doubleArray)
+
+Start: Wed, 15 Apr 2015 21:00:00 (approx) -0500
+End: Wed, 15 Apr 2015 21:26:20 -0500
+Tasks: Skipped functions.js and instead got returnObjectLiteral working.  
