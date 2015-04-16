@@ -16,3 +16,8 @@ Tasks: Skipped functions.js and instead got returnObjectLiteral working.
 Start: Wed, 15 Apr 2015 23:00:00 (approx) -0500
 End: Thu, 16 Apr 2015 00:03:27 -0500 
 Tasks: Finished functions.js
+
+Start: Thu, 16 Apr 2015 17:25:00 (approx) -0500
+End: Thu Apr 16 18:12:19 2015 -0500
+Tasks: completed MessageLog in objects.js
+
