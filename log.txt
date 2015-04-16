@@ -12,3 +12,7 @@ Tasks: Completed variables.js (qunit tests all pass) and halfway through functio
 Start: Wed, 15 Apr 2015 21:00:00 (approx) -0500
 End: Wed, 15 Apr 2015 21:26:20 -0500
 Tasks: Skipped functions.js and instead got returnObjectLiteral working.  
+
+Start: Wed, 15 Apr 2015 23:00:00 (approx) -0500
+End: Thu, 16 Apr 2015 00:03:27 -0500 
+Tasks: Finished functions.js
