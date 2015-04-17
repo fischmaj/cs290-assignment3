@@ -24,3 +24,7 @@ Tasks: completed MessageLog in objects.js
 Start: Fri, 17 Apr 2015 14:55:00 -0500
 End: Fri, 17 Apr 2015 15:27:02 -0500
 Tasks: Finished objects.js and ran through jslint.com
+
+Start: Fri, 17 Apr 2015 17:45:00 -0500 
+End: Fri, 17 Apr 2015 18:28:28 -0500 
+Tasks: researched, downloaded, and installed gjslint, and re-linted. 
